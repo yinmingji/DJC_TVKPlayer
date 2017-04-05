@@ -1,0 +1,6 @@
+framework module TVKPlayer {
+  umbrella header "TVKPlayer.h"
+
+  export *
+  module * { export * }
+}
