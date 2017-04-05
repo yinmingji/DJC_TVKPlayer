@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
                    It is a test on iOS, which implement by Objective-C.
                    DESC
 
-  s.homepage     = "https://github.com/yinmingji/TVKPlayer"
+  s.homepage     = "https://github.com/yinmingji/DJC_TVKPlayer"
   s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "8.0"
 
 
-  s.source       = { :git => "https://github.com/yinmingji/TVKPlayer.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yinmingji/DJC_TVKPlayer.git", :tag => "#{s.version}" }
 
 
   s.source_files = "TVKPlayer/*"
