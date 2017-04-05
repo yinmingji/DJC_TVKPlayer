@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "DJC_TVKPlayer"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "A short description of DJC_TVKPlayer."
 
 
@@ -39,10 +39,6 @@ Pod::Spec.new do |s|
   s.source_files = "TVKPlayer/*"
 
   s.public_header_files = "TVKPlayer/TVKPlayer.framework/Headers/*.h"
-
-  s.resources = "TVKPlayer/Resources/*.bundle"
-
-  # s.frameworks = "SomeFramework", "AnotherFramework"
 
   s.requires_arc = true
 
